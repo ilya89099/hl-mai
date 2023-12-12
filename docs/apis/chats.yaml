@@ -4,10 +4,8 @@ info:
   title: 'Arch Lab Example API'
   description: Пример API для первого домашнего задания по курсу Архитектура программных систем
 servers:
-  - url: http://localhost:8080
-    description: Управление чатами и сообщениями
   - url: http://localhost:8081
-    description: Управление пользователями
+    description: Управление чатами и сообщениями
 paths:
   /chat/searchByUserId:
     get:
